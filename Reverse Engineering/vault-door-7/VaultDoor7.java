@@ -9,11 +9,11 @@ class VaultDoor7 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter vault password: ");
         String userInput = scanner.next();
-	String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
-	if (vaultDoor.checkPassword(input)) {
-	    System.out.println("Access granted.");
-	} else {
-	    System.out.println("Access denied!");
+    String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
+    if (vaultDoor.checkPassword(input)) {
+        System.out.println("Access granted.");
+    } else {
+        System.out.println("Access denied!");
         }
     }
 
@@ -60,8 +60,9 @@ class VaultDoor7 {
             && x[2] == 1600270708
             && x[3] == 1601398833
             && x[4] == 1716808014
-            && x[5] == 1734292024
-            && x[6] == 926443108
-            && x[7] == 825569586;
+
+            && x[5] == 1734305381
+            && x[6] == 828716089
+            && x[7] == 895562083;
     }
 }
