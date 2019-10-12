@@ -1,1 +1,3 @@
 *.java linguist-language=python
+*.c  linguist-language=bash
+*.asm linguist-language=bash
